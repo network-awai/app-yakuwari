@@ -1,0 +1,7 @@
+{:itonami.blueprint/id "app-yakuwari"
+ :itonami.blueprint/name "yakuwari — operating roles of the network's businesses"
+ ;; One classification key (itonami-lib blueprint.edn schema), chosen from
+ ;; README.md for the registry catalog (JUN-1439): isic-rev5 7020, checked against
+ ;; the ISIC Rev.5 structure table in cloud-itonami/app-itonami-org-un-isic.
+ :itonami.blueprint/isic-rev5 "7020"
+ :itonami.blueprint/domain :business/operating-roles}
